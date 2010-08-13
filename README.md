@@ -49,7 +49,7 @@ To run a demo, go to `example` directory and run the following command:
 
     $ node server.js
 
-Then open up web browser and go to `http://localhost:8080/index.html`. That `index.html` is handled by `Static Resource`.
+Then open up web browser and go to [http://localhost:8080/index.html](http://localhost:8080/index.html). That `index.html` is handled by `Static Resource`.
 
 
 ## Credits
