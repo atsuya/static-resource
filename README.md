@@ -27,6 +27,16 @@ The `Static Resource` is a module for node.js to handle static resources such as
 
 `Static Resource` is designed to handle resources you choose to let `Static Resource` handle and don't do anything else. This leaves you with a choice of handling certain resources by yourself yet letting other resources handled by `Static Resource`.
 
+Adding/removing content types is easy.
+
+    var handler = staticResource.createHandler(fs.realpathSync('./static'));
+    handler.addContentType('.zip', 'application/zip');
+    handler.removeContentType('.html');
+
+For adding a new content type, just pass file extension with '.' and content type along with it. For removing existing content type, you only need to pass the file extension.
+
+The content types that I think very common are added by default in its constructor, so add/remove by yourself. When it doesn't know which content type to use, it defaults to `application/octet-stream`. 
+
 
 ## Notes
 
@@ -49,7 +59,7 @@ Then open up web browser and go to `http://localhost:8080/index.html`. That `ind
 
 ## License
 
-`Static Resource` is licensed under MIT license.
+`Static Resource` is licensed under the MIT license.
 
 Copyright (c) 2010 Atsuya Takagi &lt;atsuya.takagi@gmail.com&gt;
 
