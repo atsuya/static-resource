@@ -3,7 +3,7 @@
 The `Static Resource` is a module for node.js to handle static resources such as html, image, css files.
 
 
-## Hot to use
+## How to use
 
     var http = require('http');
     var fs = require('fs');
