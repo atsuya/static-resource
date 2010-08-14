@@ -62,6 +62,7 @@ Then open up web browser and go to [http://localhost:8080/index.html](http://loc
 `Static Resource` is licensed under the MIT license.
 
 The MIT License
+
 Copyright (c) 2010 Atsuya Takagi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
