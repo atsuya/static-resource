@@ -1,4 +1,4 @@
-{ "name": "atsuya"
+{ "name": "static-resource"
 , "description": "Static resource handling for node.js"
 , "main": "./index"
 , "author": "atsuya"
