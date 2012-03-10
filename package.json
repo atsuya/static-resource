@@ -1,0 +1,10 @@
+{ "name": "static-resource"
+, "description": "Static resource handling for node.js"
+, "main": "./index"
+, "author": "atsuya"
+, "version": "0.1.0"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/arifamirani/static-resource.git"
+  }
+}
